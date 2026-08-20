@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: service.dmc.wspr
+
+server:
+  port: 8090
+
+azure:
+  keyvault:
+    endpoint: ${AZURE_KEY_VAULT_ENDPOINT}
+    secret-name: ${AZURE_KEY_VAULT_SECRET_NAME:secreto}
